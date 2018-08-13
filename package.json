@@ -5,7 +5,9 @@
   "license": "MIT",
   "repository": "https://github.com/jaducku/movie-ql",
   "dependencies": {
-    "graphql-yoga": "^1.16.0"
+    "axios": "^0.18.0",
+    "graphql-yoga": "^1.16.0",
+    "node-fetch": "^2.2.0"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
